@@ -16,8 +16,8 @@ from setuptools import setup
 
 # Do not edit these constants. They will be updated automatically
 # by scripts/update-client.sh.
-CLIENT_VERSION = "6.0.0-snapshot"
-PACKAGE_NAME = "kubernetes"
+CLIENT_VERSION = "1.0.0-snapshot"
+PACKAGE_NAME = "voyager"
 DEVELOPMENT_STATUS = "4 - Beta"
 
 # To install the library, run the following
@@ -46,21 +46,21 @@ with open('test-requirements.txt') as f:
 setup(
     name=PACKAGE_NAME,
     version=CLIENT_VERSION,
-    description="Kubernetes python client",
+    description="Voyager python client",
     author_email="",
-    author="Kubernetes",
+    author="Voyager",
     license="Apache License Version 2.0",
     url="https://github.com/voyager-client/python",
-    keywords=["Swagger", "OpenAPI", "Kubernetes"],
+    keywords=["Swagger", "OpenAPI", "Voyager"],
     install_requires=REQUIRES,
     tests_require=TESTS_REQUIRES,
     extras_require=EXTRAS,
-    packages=['kubernetes', 'kubernetes.client', 'kubernetes.config',
-              'kubernetes.watch', 'kubernetes.client.apis',
-              'kubernetes.stream', 'kubernetes.client.models'],
+    packages=['voyager', 'voyager.client', 'voyager.config',
+              'voyager.watch', 'voyager.client.apis',
+              'voyager.stream', 'voyager.client.models'],
     include_package_data=True,
     long_description="""\
-    Python client for kubernetes http://kubernetes.io/
+    Python client for Voyager by AppsCode https://appscode.com/products/voyager/
     """,
     classifiers=[
         "Development Status :: %s" % DEVELOPMENT_STATUS,

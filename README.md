@@ -3,8 +3,8 @@
 [![Build Status](https://travis-ci.org/voyager-client/python.svg?branch=master)](https://travis-ci.org/voyager-client/python)
 [![PyPI version](https://badge.fury.io/py/voyager.svg)](https://badge.fury.io/py/voyager)
 [![codecov](https://codecov.io/gh/voyager-client/python/branch/master/graph/badge.svg)](https://codecov.io/gh/voyager-client/python "Non-generated packages only")
-[![pypi supported versions](https://img.shields.io/pypi/pyversions/voyager.svg)](https://pypi.python.org/pypi/kubernetes)
-[![Client Capabilities](https://img.shields.io/badge/Kubernetes%20client-Silver-blue.svg?style=flat&colorB=C0C0C0&colorA=306CE8)](http://bit.ly/voyager-client-capabilities-badge)
+[![pypi supported versions](https://img.shields.io/pypi/pyversions/voyager.svg)](https://pypi.python.org/pypi/voyager)
+[![Client Capabilities](https://img.shields.io/badge/Kubernetes%20client-Silver-blue.svg?style=flat&colorB=C0C0C0&colorA=306CE8)](http://bit.ly/kubernetes-client-capabilities-badge)
 
 Official Python client for the [Voyager by AppsCode](https://appscode.com/products/voyager/) - Secure HAProxy Ingress Controller for Kubernetes.
 

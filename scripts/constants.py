@@ -21,7 +21,7 @@ KUBERNETES_BRANCH = "master"
 CLIENT_VERSION = "1.0.0-snapshot"
 
 # Name of the release package
-PACKAGE_NAME = "kubernetes"
+PACKAGE_NAME = "voyager"
 
 # Stage of development, mainly used in setup.py's classifiers.
 DEVELOPMENT_STATUS = "4 - Beta"
